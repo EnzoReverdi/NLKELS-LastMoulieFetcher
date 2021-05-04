@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({
     args: ["--user-data-dir=./Google/Chrome/User Data/"],
     // headless: false,
-    executablePath: '/bin/google-chrome'
+    executablePath: '/bin/google-chrome-stable'
   });
   const page = await browser.newPage();
   await page.goto('https://my.epitech.eu/index.html#2020/all/all');
