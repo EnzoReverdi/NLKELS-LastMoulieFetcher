@@ -12,4 +12,4 @@ TESTPASSED=\$(cat buffer | jq '.[-1]' | sed -n 's/.*\"passed\": \([0-9]*\).*/\1/
 printf \"  \$(python -c \"print(\${TESTPASSED} / \${NBTEST} * 100)\")%% \${PROJECT}  \n\"
 rm -rf buffer" > NLKELS.sh
 chmod 755 NLKELS.sh
-node credentials.js
+node credential.js
