@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch({
     args: ["--user-data-dir=./Google/Chrome/User Data/"],
-    headless: false,
+    // headless: false,
     executablePath: '/bin/google-chrome'
   });
   const page = await browser.newPage();
