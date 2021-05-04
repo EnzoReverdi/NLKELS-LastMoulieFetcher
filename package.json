@@ -1,0 +1,15 @@
+{
+  "name": "modulenlkels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "token_fetcher.js",
+  "dependencies": {
+    "puppeteer": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
